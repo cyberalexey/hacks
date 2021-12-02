@@ -38,7 +38,24 @@ Ipconfig /release</p>
      <a href="\.\globalroot\device\condrv\kernelconnect">\.\globalroot\device\condrv\kernelconnect</a>
      <div><a href="https://allcalc.ru/node/1884" data-weight="450px" data-height="400px">Сколько дней осталось до ноября - allcalc</a><script src="https://allcalc.ru/widgets/script.js"></script></div>
      <a href="https://www.python.org/">python скачать</a>
-     <a href=""></a>
+     <p>import multiprocessing
+
+
+def foo():
+    print('running foo')
+
+
+def main():
+    print('start')
+    ctx = multiprocessing.get_context('spawn')
+
+    p = ctx.Process(target=foo)
+    p.start()
+    p.join()
+
+
+if __name__ == '__main__':
+    main()</p>
    </body>
 </html>
      
